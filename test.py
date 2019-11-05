@@ -17,6 +17,7 @@ def get_response(msg):
     except:
         return
 
+#register reply function
 @itchat.msg_register(itchat.content.TEXT)
 def tuling_reply(msg):
     # default reply
